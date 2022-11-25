@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: Timer;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+body {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #9ca3af;
+  font-family: "Noto Sans", sans-serif;
+  color: aliceblue;
+}
+
+.container {
+  width: 575px;
+  height: fit-content;
+  background-color: #1b244a;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+#home {
+  padding: 68px 0;
+  /* border: 2px solid red;*/
+  width: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.home-points-text {
+  font-family: Timer;
+  font-size: 70px;
+  color: red;
+  background-color: black;
+  padding: 18px 30px 6px 27px;
+  border-radius: 6px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  width: 100px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  color: #9aabd8;
+  border: 2px solid #9aabd8;
+  border-radius: 4px;
+  font-family: Timer;
+  font-size: 15px;
+  list-style: none;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding: 9px 10px 6px;
+}
+
+/*------------ GUEST CARD ---------------*/
+
+#guest {
+  padding: 68px 0;
+  /* border: 2px solid red;*/
+  width: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  all: unset;
+}
+
+li:hover {
+  color: #dae4ff;
+  border: 2px solid #dae4ff;
+}
+
+#btn-reset {
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: red;
+  margin: auto;
+}
+
+#btn-reset:hover {
+  color: red;
+  background-color: white;
+}
